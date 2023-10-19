@@ -1,0 +1,4 @@
+dotnet --info
+dotnet new sln
+dotnet new webapi -o src/AuctionService
+dotnet sln add src/AuctionService
