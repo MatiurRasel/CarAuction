@@ -2,3 +2,14 @@ dotnet --info
 dotnet new sln
 dotnet new webapi -o src/AuctionService
 dotnet sln add src/AuctionService
+cd src/auctionservice
+dotnet tool list -g
+dotnet tool install dotnet-ef -g / dotnet tool update dotnet-ef -g
+dotnet ef migrations add "InitialCreate" -o Data/Migrations
+
+H:\GITHUB\CarAuction>docker compose up -d
+
+H:\GITHUB\CarAuction\src\AuctionService>dotnet ef database update
+H:\GITHUB\CarAuction\src\AuctionService>dotnet ef database drop
+
+H:\GITHUB\CarAuction\src\AuctionService>dotnet watch --no-hot-reload
