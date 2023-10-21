@@ -13,3 +13,6 @@ H:\GITHUB\CarAuction\src\AuctionService>dotnet ef database update
 H:\GITHUB\CarAuction\src\AuctionService>dotnet ef database drop
 
 H:\GITHUB\CarAuction\src\AuctionService>dotnet watch --no-hot-reload
+
+F:\All Work Merged\GITHUB\CarAuction>git init
+F:\All Work Merged\GITHUB\CarAuction>dotnet new gitignore

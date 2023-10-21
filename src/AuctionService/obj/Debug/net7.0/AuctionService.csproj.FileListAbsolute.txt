@@ -37,3 +37,42 @@ H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Npgsql.EntityFrameworkC
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\System.CodeDom.dll
 H:\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.AssemblyReference.cache
 H:\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.CopyComplete
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\appsettings.Development.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\appsettings.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AuctionService.exe
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AuctionService.deps.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AuctionService.runtimeconfig.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AuctionService.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AuctionService.pdb
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AutoMapper.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Humanizer.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Npgsql.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\System.CodeDom.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.AssemblyReference.cache
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.GeneratedMSBuildEditorConfig.editorconfig
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.AssemblyInfoInputs.cache
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.AssemblyInfo.cs
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.CoreCompileInputs.cache
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.MvcApplicationPartsAssemblyInfo.cache
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets\msbuild.AuctionService.Microsoft.AspNetCore.StaticWebAssets.props
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets\msbuild.build.AuctionService.props
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AuctionService.props
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AuctionService.props
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets.pack.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets.build.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\staticwebassets.development.json
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\scopedcss\bundle\AuctionService.styles.css
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.csproj.CopyComplete
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\refint\AuctionService.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.pdb
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.genruntimeconfig.cache
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\ref\AuctionService.dll
