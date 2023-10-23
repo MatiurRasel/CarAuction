@@ -5,3 +5,5 @@ dotnet watch --no-hot-reload
 
 H:\GITHUB\CarAuction>docker compose up -d
 MongoDB for VS Code
+
+Microsoft.Extensions.Http.Polly

@@ -8,6 +8,7 @@ dotnet tool install dotnet-ef -g / dotnet tool update dotnet-ef -g
 dotnet ef migrations add "InitialCreate" -o Data/Migrations
 
 H:\GITHUB\CarAuction>docker compose up -d
+F:\All Work Merged\GITHUB\CarAuction>docker volume list  
 
 H:\GITHUB\CarAuction\src\AuctionService>dotnet ef database update
 H:\GITHUB\CarAuction\src\AuctionService>dotnet ef database drop
