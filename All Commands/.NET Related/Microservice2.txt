@@ -7,3 +7,6 @@ H:\GITHUB\CarAuction>docker compose up -d
 MongoDB for VS Code
 
 Microsoft.Extensions.Http.Polly
+MassTransit.RabbitMQ
+H:\GITHUB\CarAuction\src\AuctionService>cd ..
+H:\GITHUB\CarAuction\src\SearchService>dotnet add reference ../../src/Contracts
