@@ -76,3 +76,13 @@ F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\refint\
 F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.pdb
 F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\AuctionService.genruntimeconfig.cache
 F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\obj\Debug\net7.0\ref\AuctionService.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\MassTransit.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\RabbitMQ.Client.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Contracts.dll
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Contracts.pdb
