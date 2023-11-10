@@ -26,3 +26,6 @@ PS H:\GITHUB\CarAuction> dotnet sln add src/Contracts
 H:\GITHUB\CarAuction\src\AuctionService>dotnet add reference ../../src/Contracts
 
 cd ..
+
+MassTransit.EntityFrameworkCore
+dotnet ef migrations add outbox -o Data/Migrations

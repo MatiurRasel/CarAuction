@@ -86,3 +86,4 @@ H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.Extensions.Op
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\RabbitMQ.Client.dll
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Contracts.dll
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Contracts.pdb
+H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\MassTransit.EntityFrameworkCoreIntegration.dll

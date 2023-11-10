@@ -19,6 +19,7 @@ namespace SearchService.Consumers
            Console.WriteLine("----> Consuming auction created: " + context.Message.Id);
 
            var item = _mapper.Map<Item>(context.Message);
+           
            await item.SaveAsync();
         }
     }
