@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj": {}
+    "H:\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj": {
+    "H:\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "H:\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj",
-        "packagesPath": "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\",
-        "outputPath": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\AuctionService\\obj\\",
+        "projectPath": "H:\\GITHUB\\CarAuction\\src\\AuctionService\\AuctionService.csproj",
+        "packagesPath": "C:\\Users\\Matiur Rasel\\.nuget\\packages\\",
+        "outputPath": "H:\\GITHUB\\CarAuction\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matiur-Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matiur Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +31,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj": {
-                "projectPath": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj"
+              "H:\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj": {
+                "projectPath": "H:\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -89,24 +89,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj": {
+    "H:\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "H:\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\",
-        "outputPath": "F:\\All Work Merged\\GITHUB\\CarAuction\\src\\Contracts\\obj\\",
+        "projectPath": "H:\\GITHUB\\CarAuction\\src\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Matiur Rasel\\.nuget\\packages\\",
+        "outputPath": "H:\\GITHUB\\CarAuction\\src\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matiur-Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matiur Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

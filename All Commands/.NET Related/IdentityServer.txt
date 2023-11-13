@@ -33,3 +33,4 @@ dotnet sln add src/IdentityService
 
 cd src/identityService
 dotnet watch --no-hot-reload
+dotnet ef migrations add "InitialCreate" -o Data/Migrations 
