@@ -1,0 +1,35 @@
+# Duende Identity Server
+
+OpenID Connect & OAuth 2.0
+Azure Active Directory
+
+Identity Server →
+
+⇒Authentication Server
+⇒ Implements OpenID Connect(OIDC) and OAuth 2.0
+⇒ Designed to be a customizable solution.
+⇒ No longer Open Source (**licence** required in Production)
+⇒ Single Sign On Solution
+
+OAuth 2.0 ⇒ is a security standard where give one app permission to access data in another app. is designed for authorization and granting accessed data.
+Terminology of OAuth → 
+1. Resource Owner
+2. Authorization Server → Identity Server, Facebook login, Apple Login etc. is the 3rd party service that the resource server trust.
+3. Resource Server → (Auction Service)
+4. Redirect URI
+5. Response Type (most common is authorization code)
+6. Scope (Read Auctions, Read Profile)
+7. Consent Form
+8. Client ID(Postman / client App)
+9. Client Secret
+10. Authorization Code
+11. Access Token
+
+
+
+dotnet new install Duende.IdentityServer.Templates
+dotnet new isaspid -o src/IdentityService   
+dotnet sln add src/IdentityService   
+
+cd src/identityService
+dotnet watch --no-hot-reload
