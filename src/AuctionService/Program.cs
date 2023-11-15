@@ -2,6 +2,7 @@ using AuctionService.Comsumers;
 using AuctionService.Data;
 using AuctionService.Entities;
 using MassTransit;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -31,7 +32,7 @@ builder.Services.AddMassTransit(x=>
         cfg.ConfigureEndpoints(context);
     });
 });
-
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

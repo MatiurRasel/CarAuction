@@ -29,3 +29,4 @@ cd ..
 
 MassTransit.EntityFrameworkCore
 dotnet ef migrations add outbox -o Data/Migrations
+Microsoft.AspNetCore.Authentication.JwtBearer 
