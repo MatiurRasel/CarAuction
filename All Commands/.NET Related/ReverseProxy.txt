@@ -1,0 +1,6 @@
+dotnet new web -o src/GatewayService
+dotnet sln add src/GatewayService
+
+
+Yarp.ReverseProxy
+Microsoft.AspNetCore.Authentication.JwtBearer
