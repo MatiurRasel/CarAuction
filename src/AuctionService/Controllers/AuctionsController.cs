@@ -5,6 +5,7 @@ using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Contracts;
 using MassTransit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -51,12 +52,13 @@ namespace AuctionService.Controllers
 
             return _mapper.Map<AuctionDTO>(auction);    
         }
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<AuctionDTO>> CreateAuction(CreateAuctionDTO auctionDTO)
         {
             var auction = _mapper.Map<Auction>(auctionDTO);
-            //TODO:  Add current user as seller
-            auction.Seller = "test";
+
+            auction.Seller = User.Identity.Name;
             _context.Auctions.Add(auction);
            
             var newAuction = _mapper.Map<AuctionDTO>(auction);
@@ -71,6 +73,7 @@ namespace AuctionService.Controllers
             _mapper.Map<AuctionDTO>(newAuction));
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateAuction(Guid id,UpdateAuctionDTO updateAuctionDTO)
         {
@@ -80,7 +83,7 @@ namespace AuctionService.Controllers
 
             if(auction == null) return NotFound();
 
-            //TODO: check seller == userName
+            if(auction.Seller != User.Identity.Name) return Forbid();
 
             auction.Item.Make = updateAuctionDTO.Make ?? auction.Item.Make;
             auction.Item.Model = updateAuctionDTO.Model ?? auction.Item.Model;
@@ -94,14 +97,15 @@ namespace AuctionService.Controllers
             if(result) return Ok();
             return BadRequest("Problem saving changes");
         } 
-    
+
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteAuction(Guid id)
         {
             var auction = await _context.Auctions.FindAsync(id);
             if(auction == null) return NotFound();
 
-            //TODO: check seller == userName
+            if(auction.Seller != User.Identity.Name) return Forbid();
 
             _context.Auctions.Remove(auction);
             await _publishEndpoint.Publish(_mapper.Map<AuctionDeleted>(new 
