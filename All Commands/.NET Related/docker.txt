@@ -3,4 +3,8 @@ docker compose down
 docker compose up -d
 
 --Dockerize
- docker build -f src/AuctionService/DockerFile -t testing123 .
+ docker build -f src/AuctionService/Dockerfile -t testing123 .
+ docker run testing123
+
+
+ docker compose build auction-svc

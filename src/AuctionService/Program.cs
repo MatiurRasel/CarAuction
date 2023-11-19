@@ -1,6 +1,5 @@
-using AuctionService.Comsumers;
+using AuctionService.Consumers;
 using AuctionService.Data;
-using AuctionService.Entities;
 using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -29,6 +28,13 @@ builder.Services.AddMassTransit(x=>
     x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("auction",false));
     
     x.UsingRabbitMq((context,cfg) => {
+        //For PRoduction
+        cfg.Host(builder.Configuration["RabbitMq:Host"],"/",host =>
+        {
+            host.Username(builder.Configuration.GetValue("RabbitMq:Username","guest"));
+            host.Password(builder.Configuration.GetValue("RabbitMq:Password","guest"));
+        });
+
         cfg.ConfigureEndpoints(context);
     });
 });
