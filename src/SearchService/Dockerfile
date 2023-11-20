@@ -14,17 +14,18 @@ COPY src/IdentityService/IdentityService.csproj src/IdentityService/IdentityServ
 
 #Restore package deps
 RUN dotnet restore CarAuction.sln
+
 ## up above are the same for all service Dockerfile
 
 #Copy the app folder over
 
-COPY src/AuctionService src/AuctionService
+COPY src/SearchService src/SearchService
 COPY src/Contracts src/Contracts
-WORKDIR /app/src/AuctionService
+WORKDIR /app/src/SearchService
 RUN dotnet publish -c Release -o /app/src/out
 
 #Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build /app/src/out .
-ENTRYPOINT [ "dotnet","AuctionService.dll" ]
+ENTRYPOINT [ "dotnet","SearchService.dll" ]

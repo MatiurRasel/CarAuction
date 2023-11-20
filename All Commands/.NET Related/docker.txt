@@ -8,3 +8,10 @@ docker compose up -d
 
 
  docker compose build auction-svc
+ docker compose up -d
+ docker compose build search-svc
+ docker compose up -d
+ docker compose build identity-svc
+ docker compose up -d
+ docker compose build gateway-svc 
+ docker compose up -d

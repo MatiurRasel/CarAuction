@@ -45,6 +45,7 @@ public class Index : PageModel
         
     public async Task<IActionResult> OnGet(string returnUrl)
     {
+        // var localAddresses = new string[] { "127.0.0.1", "::1", HttpContext.Connection.LocalIpAddress.ToString() };
         await BuildModelAsync(returnUrl);
             
         if (View.IsExternalLoginOnly)

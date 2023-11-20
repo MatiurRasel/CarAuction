@@ -18,13 +18,12 @@ RUN dotnet restore CarAuction.sln
 
 #Copy the app folder over
 
-COPY src/AuctionService src/AuctionService
-COPY src/Contracts src/Contracts
-WORKDIR /app/src/AuctionService
+COPY src/GatewayService src/GatewayService
+WORKDIR /app/src/GatewayService
 RUN dotnet publish -c Release -o /app/src/out
 
 #Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build /app/src/out .
-ENTRYPOINT [ "dotnet","AuctionService.dll" ]
+ENTRYPOINT [ "dotnet","GatewayService.dll" ]
