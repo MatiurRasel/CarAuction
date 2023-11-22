@@ -22,7 +22,7 @@ builder.Services.AddMassTransit(x=>
     x.SetEndpointNameFormatter(new KebabCaseEndpointNameFormatter("search",false));
     x.UsingRabbitMq((context,cfg) => 
     {
-        //For PRoduction
+        //For Production
         cfg.Host(builder.Configuration["RabbitMq:Host"],"/",host =>
         {
             host.Username(builder.Configuration.GetValue("RabbitMq:Username","guest"));
