@@ -105,3 +105,10 @@ H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 H:\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
