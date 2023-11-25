@@ -1,0 +1,20 @@
+PS H:\GITHUB\CarAuction> mkdir frontEnd 
+ cd frontend
+  npx create-next-app@latest
+ cd web-app
+npm run dev
+
+vsCode -> Settings -> CSS › Lint: Unknown At Rules -> warning->ignore
+extensions -> Tailwind CSS IntelliSense
+extensions -> ES7+ React/Redux/React-Native sni
+for auto complete react functional component completation -> rfc 
+for correction of auto closing tag autocomplete -> Auto Close Tag
+https://flexboxfroggy.com/
+
+H:\GITHUB\CarAuction>cd frontend/web-app
+H:\GITHUB\CarAuction\frontEnd\web-app>npm install react-icons
+
+H:\GITHUB\CarAuction\frontEnd\web-app>npm install -D @tailwindcss/aspect-ratio
+
+
+  npm install -g npm@10.2.4
