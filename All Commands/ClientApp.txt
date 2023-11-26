@@ -16,5 +16,6 @@ H:\GITHUB\CarAuction\frontEnd\web-app>npm install react-icons
 
 H:\GITHUB\CarAuction\frontEnd\web-app>npm install -D @tailwindcss/aspect-ratio
 
+npm install react-countdown
 
   npm install -g npm@10.2.4
