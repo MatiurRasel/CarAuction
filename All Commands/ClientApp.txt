@@ -9,7 +9,10 @@ extensions -> Tailwind CSS IntelliSense
 extensions -> ES7+ React/Redux/React-Native sni
 for auto complete react functional component completation -> rfc 
 for correction of auto closing tag autocomplete -> Auto Close Tag
+
 https://flexboxfroggy.com/
+https://transform.tools/json-to-typescript
+https://www.flowbite-react.com/
 
 H:\GITHUB\CarAuction>cd frontend/web-app
 H:\GITHUB\CarAuction\frontEnd\web-app>npm install react-icons
@@ -17,5 +20,5 @@ H:\GITHUB\CarAuction\frontEnd\web-app>npm install react-icons
 H:\GITHUB\CarAuction\frontEnd\web-app>npm install -D @tailwindcss/aspect-ratio
 
 npm install react-countdown
-
+npm i flowbite flowbite-react
   npm install -g npm@10.2.4
