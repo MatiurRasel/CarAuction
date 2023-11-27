@@ -22,3 +22,14 @@ H:\GITHUB\CarAuction\frontEnd\web-app>npm install -D @tailwindcss/aspect-ratio
 npm install react-countdown
 npm i flowbite flowbite-react
   npm install -g npm@10.2.4
+
+
+
+
+  ############BAT file to run error fix
+%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
+cd /d "%~dp0"
+net stop winnat
+net start winnat
+exit  
+ ###################
