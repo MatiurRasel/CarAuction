@@ -21,6 +21,13 @@ H:\GITHUB\CarAuction\frontEnd\web-app>npm install -D @tailwindcss/aspect-ratio
 
 npm install react-countdown
 npm i flowbite flowbite-react
+https://zustand-demo.pmnd.rs/
+npm install zustand query-string
+
+
+
+
+
   npm install -g npm@10.2.4
 
 
