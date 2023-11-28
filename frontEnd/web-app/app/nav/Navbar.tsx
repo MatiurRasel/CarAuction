@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineCar } from "react-icons/ai";
+import Search from './search';
 export default function Navbar() {
   return (
     <header className='
@@ -14,7 +15,7 @@ export default function Navbar() {
           </div>
           </div>
       </div>
-      <div>Search</div>
+      <Search />
       <div>Login</div>
     </header>
   )
