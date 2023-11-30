@@ -2,6 +2,7 @@ import React from 'react'
 import { AiOutlineCar } from "react-icons/ai";
 import Search from './Search';
 import Logo from './Logo';
+import LoginButton from './LoginButton';
 export default function Navbar() {
   return (
     <header className='
@@ -9,7 +10,7 @@ export default function Navbar() {
      bg-white p-5 items-center text-gray-800 shadow-md'>
       <Logo />
       <Search />
-      <div>Login</div>
+      <LoginButton />
     </header>
   )
 }

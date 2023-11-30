@@ -24,6 +24,12 @@ npm i flowbite flowbite-react
 https://zustand-demo.pmnd.rs/
 npm install zustand query-string
 
+##NextAuth
+npm install next-auth
+##
+##ROUTING FUNCTIONALITY WORKS IF A PAGE IS CREATED WITH page.tsx in NEXT.js
+
+... spread Operator
 
 
 
