@@ -17,7 +17,22 @@ export const authOptions: NextAuthOptions = {
             },
             idToken: true
         })
-    ]
+    ],
+    callbacks: {
+        async jwt({token,profile}) {
+            if(profile) {
+                token.userName = profile.userName
+            }
+            return token;
+        },
+        async session({session,token}) {
+            if(token)
+            {
+                session.user.userName = token.userName
+            }
+            return session;
+        }
+    }
 }
 
 const handler = NextAuth(authOptions);
