@@ -33,12 +33,14 @@ async function put(url: string, body:{}) {
 }
 
 async function del(url: string) {
+    debugger
+    console.log(url);
     const requestOptions = {
         method: 'DELETE',
         headers: await getHeaders()
     }
     const response = await fetch(baseUrl + url, requestOptions);
-    return await handleResponse(response);
+    //return await handleResponse(response);
 }
 
 

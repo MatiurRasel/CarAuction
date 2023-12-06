@@ -30,7 +30,7 @@ export default function AuctionForm({auction}: Props) {
                 reset({make,model,color,mileage,year});
             }
             setFocus('make');
-        },[setFocus])
+        },[setFocus, reset, auction])
 
     async function onSubmit(data: FieldValues) {
         try {
@@ -73,7 +73,7 @@ export default function AuctionForm({auction}: Props) {
             rules={{required:'Mileage is required'}}/>
        
         </div> 
-        {pathname === 'auctions/create' &&   
+        {pathname === '/auctions/create' &&   
         <>
             <Input label='Image URL' name='imageUrl' control={control} 
                 rules={{required:'Image URL is required'}}/> 
