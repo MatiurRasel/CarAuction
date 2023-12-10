@@ -1,0 +1,12 @@
+dotnet new webapi -o src/BiddingService
+dotnet sln add src/BiddingService
+
+
+###
+MongoDB.Entities
+Microsoft.AspNetCore.Authentication.JwtBearer
+MassTransit.RabbitMQ 
+AutoMapper.Extensions.Microsoft.DependencyInjection
+###
+
+F:\All Work Merged\GITHUB\CarAuction\src\BiddingService>dotnet add reference ../../src/Contracts
