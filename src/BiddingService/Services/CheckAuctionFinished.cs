@@ -64,8 +64,12 @@ namespace BiddingService.Services
                 
                 await endpoint.Publish(new AuctionFinished
                 {
-                    //ItemSold = winningBid
-                });
+                    ItemSold = winningBid != null,
+                    AuctionId = auction.ID,
+                    Winner = winningBid?.Bidder,
+                    Amount = winningBid?.Amount,
+                    Seller = auction.Seller
+                },stoppingToken);
             }
         }
     }

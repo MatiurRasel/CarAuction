@@ -112,3 +112,10 @@ F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microso
 F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Google.Protobuf.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Grpc.Core.Api.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Grpc.Net.Client.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+F:\All Work Merged\GITHUB\CarAuction\src\AuctionService\bin\Debug\net7.0\Grpc.Net.Common.dll
