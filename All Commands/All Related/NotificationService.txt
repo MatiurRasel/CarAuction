@@ -1,0 +1,7 @@
+dotnet  new web -o src/NotificationService
+dotnet sln add src/NotificationService
+cd src/NotificationService
+dotnet add reference ../../src/Contracts
+
+
+MassTransit.RabbitMQ 
