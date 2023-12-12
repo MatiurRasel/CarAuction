@@ -77,5 +77,34 @@ public class SeedData
         {
             Log.Debug("badhon already exists");
         }
+
+        var manha = userMgr.FindByNameAsync("manha").Result;
+        if (manha == null)
+        {
+            manha = new ApplicationUser
+            {
+                UserName = "manha",
+                Email = "manha2022@email.com",
+                EmailConfirmed = true
+            };
+            var result = userMgr.CreateAsync(manha, "Pa$$w0rd").Result;
+            if (!result.Succeeded)
+            {
+                throw new Exception(result.Errors.First().Description);
+            }
+
+            result = userMgr.AddClaimsAsync(manha, new Claim[]{
+                            new Claim(JwtClaimTypes.Name, "Manha Rahman"),
+                        }).Result;
+            if (!result.Succeeded)
+            {
+                throw new Exception(result.Errors.First().Description);
+            }
+            Log.Debug("manha created");
+        }
+        else
+        {
+            Log.Debug("manha already exists");
+        }
     }
 }

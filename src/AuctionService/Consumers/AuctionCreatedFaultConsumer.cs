@@ -1,3 +1,4 @@
+using AuctionService.RequestHelpers;
 using Contracts;
 using MassTransit;
 
@@ -7,17 +8,25 @@ namespace AuctionService.Consumers
     {
         public async Task Consume(ConsumeContext<Fault<AuctionCreated>> context)
         {
-            Console.WriteLine("---> Consuming faulty creation");
-            var exception = context.Message.Exceptions.First();
-            if(exception.ExceptionType == "System.ArgumentException")
+            try
             {
-                context.Message.Message.Model = "FooBar";
-                await context.Publish(context.Message.Message);
+                Console.WriteLine("---> Consuming faulty creation");
+                var exception = context.Message.Exceptions.First();
+                if(exception.ExceptionType == "System.ArgumentException")
+                {
+                    context.Message.Message.Model = "FooBar";
+                    await context.Publish(context.Message.Message);
+                }
+                else
+                {
+                     Console.WriteLine("Not ans argument exception - update error dashboard somewhere");
+                }
             }
-            else
+            catch(Exception ex)
             {
-                 Console.WriteLine("Not ans argument exception - update error dashboard somewhere");
+                ex.ToTextFileLog();
             }
+            
         }
     }
 }

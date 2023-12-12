@@ -1,5 +1,6 @@
 using AuctionService.Data;
 using AuctionService.Entities;
+using AuctionService.RequestHelpers;
 using Contracts;
 using MassTransit;
 
@@ -16,20 +17,28 @@ namespace AuctionService.Consumers
     
         public async Task Consume(ConsumeContext<AuctionFinished> context)
         {
-            Console.WriteLine("--> Consuming auction finished");
-    
-            var auction = await _dbContext.Auctions.FindAsync(Guid.Parse(context.Message.AuctionId));
-    
-            if (context.Message.ItemSold)
+            try
             {
-                auction.Winner = context.Message.Winner;
-                auction.SoldAmount = context.Message.Amount;
+                Console.WriteLine("--> Consuming auction finished");
+    
+                var auction = await _dbContext.Auctions.FindAsync(Guid.Parse(context.Message.AuctionId));
+        
+                if (context.Message.ItemSold)
+                {
+                    auction.Winner = context.Message.Winner;
+                    auction.SoldAmount = context.Message.Amount;
+                }
+        
+                auction.Status = auction.SoldAmount > auction.ReservePrice
+                    ? Status.Finished : Status.ReserveNotMet;
+        
+                await _dbContext.SaveChangesAsync();  
             }
-    
-            auction.Status = auction.SoldAmount > auction.ReservePrice
-                ? Status.Finished : Status.ReserveNotMet;
-    
-            await _dbContext.SaveChangesAsync();
+            catch(Exception ex)
+            {
+                ex.ToTextFileLog();
+            }
+            
         }
     }
 }

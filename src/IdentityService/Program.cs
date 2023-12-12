@@ -1,4 +1,5 @@
 ﻿using IdentityService;
+using IdentityService.RequestHelpers;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -29,7 +30,15 @@ try
     //     Log.Information("Done seeding database. Exiting.");
     //     return;
     // }
-    SeedData.EnsureSeedData(app);
+    try
+    {
+        SeedData.EnsureSeedData(app);
+    }
+    catch(Exception ex)
+    {
+        ex.ToTextFileLog();
+    }
+    
     app.Run();
 }
 catch (Exception ex) when (

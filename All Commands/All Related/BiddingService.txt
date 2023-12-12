@@ -10,3 +10,7 @@ AutoMapper.Extensions.Microsoft.DependencyInjection
 ###
 
 F:\All Work Merged\GITHUB\CarAuction\src\BiddingService>dotnet add reference ../../src/Contracts
+
+Google.Protobuf
+Grpc.Tools
+Grpc.Net.Client

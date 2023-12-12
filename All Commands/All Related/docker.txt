@@ -11,6 +11,9 @@ docker compose up -d
  docker compose build search-svc
  docker compose build identity-svc
  docker compose build gateway-svc 
+ docker compose build bid-svc 
+ docker compose build
+ docker compose down
  docker compose up -d
 
 
