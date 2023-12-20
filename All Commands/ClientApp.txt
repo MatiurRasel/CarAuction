@@ -40,9 +40,8 @@ npm install react-hook-form react-datepicker
 npm install -D @types/react-datepicker
 
 npm install react-hot-toast
-
 npm install date-fns
-
+npm install @microsoft/signalr
 
 
 npm install -g npm@10.2.4
