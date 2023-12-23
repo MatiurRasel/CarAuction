@@ -35,14 +35,13 @@ async function put(url: string, body:{}) {
 }
 
 async function del(url: string) {
-    debugger
-    console.log(url);
+    
     const requestOptions = {
         method: 'DELETE',
         headers: await getHeaders()
     }
     const response = await fetch(baseUrl + url, requestOptions);
-    //return await handleResponse(response);
+    return await handleResponse(response);
 }
 
 
@@ -60,7 +59,6 @@ async function getHeaders() {
 async function handleResponse(response: Response) {
    const text = await response.text();
    //const data = text && JSON.parse(text);
-
     let data;
     try {
         data = JSON.parse(text);
@@ -75,7 +73,7 @@ async function handleResponse(response: Response) {
    else {
     const error = {
         status: response.status,
-        message: typeof data === 'string' ? data : response.statusText
+        message: typeof data === 'string' && data.length > 0 ? data : response.statusText
     }
 
     return {error};
