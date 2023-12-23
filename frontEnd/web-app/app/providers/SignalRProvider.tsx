@@ -7,7 +7,7 @@ import { User } from 'next-auth';
 import React, { ReactNode, useEffect, useState } from 'react'
 import toast from 'react-hot-toast';
 import AuctionCreatedToast from '../components/AuctionCreatedToast';
-import { getDetailedViewData } from '../actions/auctionAction';
+import { getDetailedViewData } from '../actions/auctionActions';
 import AuctionFinishedToast from '../components/AuctionFinishedToast';
 
 type Props = {

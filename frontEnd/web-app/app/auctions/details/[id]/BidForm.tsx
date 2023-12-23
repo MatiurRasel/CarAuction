@@ -5,7 +5,7 @@ type Props = {
     highBid: number;
 }
 
-import { placeBidForAuction } from '@/app/actions/auctionAction';
+import { placeBidForAuction } from '@/app/actions/auctionActions';
 import { numberWithCommas } from '@/app/lib/numberWithComma';
 import { useBidStore } from '@/hooks/useBidStore';
 import React from 'react'

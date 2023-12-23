@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { FieldValues, useForm } from 'react-hook-form'
 import DateInput from '../components/DateInput';
 import Input from '../components/Input';
-import { createAuction, updateAuction } from '../actions/auctionAction';
+import { createAuction, updateAuction } from '../actions/auctionActions';
 import { usePathname, useRouter } from 'next/navigation';
 import toast from 'react-hot-toast/headless';
 import { Auction } from '@/types';

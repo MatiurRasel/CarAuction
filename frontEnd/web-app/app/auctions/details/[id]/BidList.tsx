@@ -1,5 +1,5 @@
 'use client'
-import { getBidsForAuction } from '@/app/actions/auctionAction'
+import { getBidsForAuction } from '@/app/actions/auctionActions'
 import Heading from '@/app/components/Heading'
 import { useBidStore } from '@/hooks/useBidStore'
 import { Auction, Bid } from '@/types'
