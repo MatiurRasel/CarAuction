@@ -7,7 +7,9 @@ const nextConfig = {
         domains: [
             'cdn.pixabay.com'
         ]
-    }
+    },
+    //created on dockerimage 
+    output: 'standalone'
 }
 
 module.exports = nextConfig
