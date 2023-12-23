@@ -71,7 +71,7 @@ export default function SignalRProvider({children, user}: Props) {
         connection?.stop();
     }
 
-  },[connection,setCurrentPrice])
+  },[connection,setCurrentPrice,addBid,user?.userName])
   
   
   return (
